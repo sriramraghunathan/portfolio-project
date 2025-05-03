@@ -6,7 +6,7 @@ export default function About() {
       title: "Portfolio Website",
       description:
         "A personal portfolio website to showcase my work and skills.",
-      link: "https://example.com", // Replace with your portfolio link
+      link: "https://portfolio-project-fba3.vercel.app/", // Replace with your portfolio link
     },
     {
       title: "Todo App",
