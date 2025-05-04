@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaReact, FaNodeJs, FaLinkedin, FaInstagram } from "react-icons/fa";
 import sriramimg from "../assets/sriram.jpg"
+import sriram1 from "../assets/SRIRAM1.pdf";
 import {
   SiMongodb,
   SiExpress,
@@ -12,18 +13,24 @@ import {
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center px-4">
+    <div className="bg-gradient-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center px-4  pb-40">
       <div className="text-center max-w-3xl">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4 flex gap-20 ">
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 flex gap-20 ">
           <img
             src={sriramimg}
             alt="no"
-            className="w-24 border-black rounded-full"
+            className="w-24 h-24 border-black rounded-full mt-2"
           />
-          <p className="text-center mt-5">
+          <p className="text-center mt-5 ">
             Hi, I'm <span className="text-blue-500 ">SRIRAM</span>
           </p>
+          <a href={sriram1} target="_blank">
+            <button className="bg-orange-400 text-black animate-bounce font-medium w-13 h-15 text-xs mt-8  p-2 border-yellow-300 border-2 rounded-full ">
+              Download CV
+            </button>
+          </a>
         </h1>
+
         <p className="text-lg md:text-xl text-gray-300 mb-6">
           Fullstack Developer | Passionate about building powerful and
           user-friendly web apps.
