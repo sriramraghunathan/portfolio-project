@@ -12,7 +12,7 @@ import sriram1 from "../assets/SRIRAM1.pdf";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center px-4 py-10 md:py-20">
+    <div className="bg-gradient-to-br from-gray-900 to-black text-white flex flex-col items-center justify-center px-4 py-10 md:py-40">
       <div className="text-center w-full max-w-3xl space-y-6">
         {/* Header Section */}
         <div className="flex flex-col items-center justify-center space-y-4">
