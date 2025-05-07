@@ -20,6 +20,12 @@ export default function About() {
       link: "https://weather-app-lemon-delta-52.vercel.app/",
     },
     {
+      title: "E-Commerce",
+      description:
+        "Here are some sample clothing descriptions you can use for your products to enhance your frontend UI. These are short, stylish, and e-commerce-friendly — perfect for items in a Men, Women, Kids, Accessories, or Shoes collection.",
+      link: "https://e-commerce-zeta-inky.vercel.app/",
+    },
+    {
       title: "Greenden",
       description: "A Plants shopping site.",
       link: "https://greenden-tailwind-tan.vercel.app/",
@@ -27,12 +33,7 @@ export default function About() {
     {
       title: "Nostra",
       description: "A clothes shopping site.",
-      link: "https://nostra-rouge-iota.vercel.app/contact.html",
-    },
-    {
-      title: "Tripadvisor",
-      description: "Get custom recs for your next trip",
-      link: "https://tripadvisor-sigma.vercel.app/",
+      link: "https://nostra-rouge-iota.vercel.app/",
     },
   ];
 
