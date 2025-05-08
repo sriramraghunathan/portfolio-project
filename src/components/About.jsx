@@ -21,8 +21,7 @@ export default function About() {
     },
     {
       title: "E-Commerce-stylish",
-      description:
-        "Here are some sample clothing descriptions you can use for your products to enhance your frontend UI. These are short, stylish, and e-commerce-friendly — perfect for items in a Men, Women, Kids, Accessories, or Shoes collection.",
+      description: "Shop from a wide range of fashion & lifestyle products",
       link: "https://e-commerce-stylish-theta.vercel.app/",
     },
     {
