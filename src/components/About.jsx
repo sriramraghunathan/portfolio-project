@@ -20,10 +20,10 @@ export default function About() {
       link: "https://weather-app-lemon-delta-52.vercel.app/",
     },
     {
-      title: "E-Commerce",
+      title: "E-Commerce-stylish",
       description:
         "Here are some sample clothing descriptions you can use for your products to enhance your frontend UI. These are short, stylish, and e-commerce-friendly — perfect for items in a Men, Women, Kids, Accessories, or Shoes collection.",
-      link: "https://e-commerce-zeta-inky.vercel.app/",
+      link: "https://e-commerce-stylish-theta.vercel.app/",
     },
     {
       title: "Greenden",
