@@ -54,17 +54,17 @@ export default function About() {
 
         {/* Projects */}
         <section>
-          <h2 className="text-2xl font-semibold mb-4 text-black">
+          <h2 className="text-2xl font-semibold  mb-4 text-black">
             My Projects
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-8">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="flex flex-col justify-between h-64 p-4 border border-white/30 bg-white bg-opacity-20 rounded-lg shadow-md hover:bg-opacity-30 transition"
+                className="flex flex-col justify-between h-64 p-4 border  border-white/30 bg-white bg-opacity-20 rounded-lg shadow-md hover:bg-opacity-30 transition"
               >
                 <div>
-                  <h3 className="text-xl text-black font-semibold">
+                  <h3 className="text-xl hover:underline text-black font-bold">
                     {project.title}
                   </h3>
                   <p className="text-black mt-2">{project.description}</p>
@@ -73,7 +73,7 @@ export default function About() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-red-600 mt-4 inline-block hover:text-green-500 hover:border-green-200 hover:rounded-full hover:w-20 hover:p-4 hover:bg-yellow-200 "
+                  className="text-red-600 border-black bg-black p-2 rounded-md font-medium text-center mt-4 inline-block hover:text-green-500 "
                 >
                   View Project
                 </a>
