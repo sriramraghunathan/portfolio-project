@@ -1,6 +1,7 @@
 import React from "react";
 import emc from "../assets/Full Stack Certificate -Sriram(1).png";
 import softtech from "../assets/softtech certificate.jpg";
+import emcfun from "../assets/emc fundamentals.png";
 
 const Certification = () => {
   const certifications = [
@@ -11,9 +12,13 @@ const Certification = () => {
       image: emc,
     },
     {
+      title: "Fundamentas of Web Development Program",
+      description:"Completed Fundamentas of Web Development Program at Error Makes Clever Institute.",
+      image: emcfun,
+    },
+    {
       title: "Frontend Developer Certificate -[ HTML , CSS , Java Script ]",
-      description:
-        "Completed Frontend at Soft Tech Institute.",
+      description: "Completed Frontend at Soft Tech Institute.",
       image: softtech,
     },
   ];
