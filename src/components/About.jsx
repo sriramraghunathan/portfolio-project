@@ -9,6 +9,12 @@ export default function About() {
       link: "https://portfolio-project-fba3.vercel.app/",
     },
     {
+      title: "Bulk Mailer App",
+      description:
+        "A Bulk Email Sender Web Application where users can send messages to multiple recipients at once using a simple UI.",
+      link: "https://bulkmail-five.vercel.app/",
+    },
+    {
       title: "Todo App",
       description: "A simple task management app built with React.",
       link: "https://actodo-zeta-one.vercel.app/",
