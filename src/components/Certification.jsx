@@ -26,37 +26,42 @@ const Certification = () => {
   ];
 
   return (
-    <section id="certifications" className="py-16 bg-yellow-50 px-4">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <h1 className="text-4xl font-extrabold text-gray-800 uppercase tracking-wide">
+    <section
+      id="certifications"
+      className="px-4 py-10 sm:px-6 lg:px-8 bg-yellow-50"
+    >
+      <div className="max-w-5xl mx-auto">
+        <div className="text-center mb-8">
+          <h1 className="text-3xl sm:text-4xl font-bold text-gray-800 uppercase">
             Certifications
           </h1>
-          <p className="text-gray-600 mt-2 text-lg">
-            My learning journey through certified programs
+          <p className="text-sm sm:text-base text-gray-600 mt-2">
+            Verified achievements from tech institutes
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 lg:grid-cols-3">
           {certifications.map((cert, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 50 }}
+              initial={{ opacity: 0, y: 40 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
+              transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-white rounded-xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300"
+              className="bg-white rounded-xl shadow-md hover:shadow-lg overflow-hidden transition duration-300"
             >
               <img
                 src={cert.image}
                 alt={cert.title}
-                className="w-full h-64 object-cover"
+                className="w-full h-48 sm:h-52 md:h-56 object-cover"
               />
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2 hover:underline">
+              <div className="p-4 sm:p-5">
+                <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2 hover:underline">
                   {cert.title}
                 </h3>
-                <p className="text-gray-600 text-sm">{cert.description}</p>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  {cert.description}
+                </p>
               </div>
             </motion.div>
           ))}
