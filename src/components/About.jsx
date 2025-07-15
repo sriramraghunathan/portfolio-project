@@ -17,7 +17,7 @@ export default function About() {
     {
       title: "E-Commerce-stylish",
       description: "Shop from a wide range of fashion & lifestyle products",
-      link: "https://e-commerce-stylish-dl7e-cinr4u7y0-srirams-projects-54e44124.vercel.app",
+      link: "https://e-commerce-stylish-dl7e-git-main-srirams-projects-54e44124.vercel.app/",
     },
     {
       title: "Greenden",
